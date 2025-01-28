@@ -25,5 +25,9 @@ class Sol9 {
         String sub1 = s.substring(8), sub2 = s.substring(8, 15);
         ps.println("Substring from index-8:  " + sub1);
         ps.println("Substring from index 8 to 15:  " + sub2);
+
+        StringBuffer sb = new StringBuffer("Hello World");
+        ps.println(sb);
+        ps.println(sb.reverse());
     }
 }
