@@ -22,8 +22,10 @@ class Solution5 {
         System.out.print("b >>  ");
         int b = sc.nextInt();
 
-        System.out.printf("\nThe HCF of %d and %d is %d", a, b, findHCF(a, b));
-        System.out.printf("\nThe LCM of %d and %d is %d\n\n", a, b, findLCM(a, b));
+        int hcf = findHCF(a, b), lcm = findLCM(a, b);
+
+        System.out.printf("\nThe HCF of %d and %d is %d", a, b, hcf);
+        System.out.printf("\nThe LCM of %d and %d is %d\n\n", a, b, lcm);
 
         sc.close();
     }

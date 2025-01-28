@@ -65,5 +65,6 @@ class Solution14 {
         Rectangle rr = new Rectangle(length, breadth);
         rr.calcArea();
         rr.calcPerimeter();
+		sc.close();
 	}
 }

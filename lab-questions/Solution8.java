@@ -12,11 +12,11 @@ class Rectangle extends Shape {
 
     void calcArea() {
         int area = length * width;
-        System.out.println("The Area of the given Rectangle is " + area);
+        System.out.println("Area of the given Rectangle is " + area);
     }
     void calcPerimeter() {
         int peri = 2 * (length + width);
-        System.out.println("The Perimeter of the given Rectangle is " + peri);
+        System.out.println("Perimeter of the given Rectangle is " + peri);
     }
 }
 

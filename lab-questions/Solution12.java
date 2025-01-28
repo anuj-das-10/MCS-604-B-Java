@@ -4,7 +4,7 @@ class Solution12 {
 
 	static void divide(int a, int b) throws ArithmeticException {
 		if(b == 0) {
-			throw new ArithmeticException("Divided by zero is not possible!");
+			throw new ArithmeticException("Divided by zero is not possible");
 		}
 		else {
             float res = (float) a / b;

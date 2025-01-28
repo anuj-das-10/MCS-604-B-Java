@@ -6,11 +6,12 @@ class Rectangle {
     }
 
     void calcArea() {
-        System.out.println("The Area of the given Rectangle is: " + l*b);
+        System.out.println("Area of the given Rectangle is: " + l*b);
     }
 
     void calcPerimeter() {
-        System.out.println("The Perimeter of the given Rectangle is: " + 2*(l+b));
+        int p = 2*(l+b);
+        System.out.println("Perimeter of the given Rectangle is: " + p);
     }
 }
 
@@ -22,7 +23,7 @@ class Box extends Rectangle {
     }
 
     void calcVolume() {
-        System.out.println("The Volume of the given Box is: " + l*b*h);
+        System.out.println("Volume of the given Box is: " + l*b*h);
     }
 }
 
